@@ -6,6 +6,7 @@ import FirstComponent from '../src/components/FirstComponent'
 import ParameterComponent from '../src/components/ParameterComponent'
 import ChildrenComponent from '../src/components/ChildrenComponent'
 import Card from '../src/components/layout/Card'
+import RepetitionComponent from '../src/components/RepetitionComponent'
 
 const App = () => {
     return(
@@ -16,7 +17,7 @@ const App = () => {
 
             <Card title='#02 - Parameter Component'>
                 <ParameterComponent
-                    title='This is the firt Title'
+                    title='This is the first Title'
                     subtitle='This is the first Subtitle'
                 />
             </Card>
@@ -31,6 +32,10 @@ const App = () => {
                         <li>John</li>
                     </ul>
                 </ChildrenComponent>
+            </Card>
+
+            <Card title='#04 - Repetition Component'>
+                <RepetitionComponent />
             </Card>
         </div>
     )

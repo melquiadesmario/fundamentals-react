@@ -7,6 +7,7 @@ import ParameterComponent from '../src/components/ParameterComponent'
 import ChildrenComponent from '../src/components/ChildrenComponent'
 import Card from '../src/components/layout/Card'
 import RepetitionComponent from '../src/components/RepetitionComponent'
+import ConditionalComponent from '../src/components/ConditionalComponent'
 
 const App = () => {
     return(
@@ -36,6 +37,10 @@ const App = () => {
 
             <Card title='#04 - Repetition Component'>
                 <RepetitionComponent />
+            </Card>
+
+            <Card title='#05 - Conditional Component'>
+                <ConditionalComponent number={ 2 } />
             </Card>
         </div>
     )

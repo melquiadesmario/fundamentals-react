@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom'
 
 import './index.css'
 
+import FirstComponent from './components/FirstComponent'
+
 ReactDOM.render(
-    <h1>Olá React JS</h1>,
+    <FirstComponent />,
     document.getElementById('root')
 )
